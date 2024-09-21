@@ -1,0 +1,78 @@
+ssh_keygen
+"ssh_keygen"
+ssh_keygen
+ssh-keygen
+cat $HOME/.ssh/*.pub
+mkdir repogit
+cd repogit
+git clone git@github.com:Moschi123/TP_AySO.git
+cd TP_AySO/
+ls -l
+cat /etc/os-release
+grep -i 'HOME_URL' /etc/os-release
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git add datos_usuario.txt
+git init
+git add datos_usuario.txt
+cd ~/repogit
+rm -rf TP_AySO
+git clone 
+git clone git@github.com:Moschi123/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+grep -i 'HOME_URL' /etc/os-release
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add .
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git config --global user.name"francoeduardo500@gmail.com"
+git config --global.name"Moschi123"
+git config --global user.name "Moschi123"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.tx"
+git add .
+git config --global user.email "francoeduardo500@gmail.com"
+git config --global user.name "Moschi123"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git push origin main
+git status
+/proc/cpuinfo
+cat /proc/cpuinfo
+grep -m 1 " Intel(R) Pentium(R) CPU G3250 @ 3.20GHz" /proc/cpuinfo >> datos_usuario.txt
+cat datos_usuario.txt
+git add datos_usuario.txt
+git commit -m "Añadido modelo de cpu al archivo datos_usuario.txt"
+git push
+git status
+grep -v "/usr/sbin/nologin" /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+cat lista_ordenada
+git add .
+git commit -m"ADD: Listado de usuarios ordenada"
+git push 
+git status
+echo "tcpdump" >comando_dump_net
+echo "Uso: tcpdump -i <interfaz>" >> comando_dump_net
+cat comando_dump_net
+git add .
+git commit -m "Comando para Capturar y analizar el tráfico de red~"
+git push
+git status
+cat <<FIN>> README.md
+Alumno:<Franco>
+Division:<314-2>
+Turno:<Noche>
+
+EOF
+<<Fin>>
+FIN
+
+git add README.md
+git commit -m "docs: agregar información de alumno y división al README.md"
+git push 
+git status
+history -a
+cp $HOME/.bash_history Historial_comandos_<Fran>.txt 
+history -a
