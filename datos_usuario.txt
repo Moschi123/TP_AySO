@@ -1,1 +1,2 @@
 “Usuario=vagrant”
+model name	: Intel(R) Pentium(R) CPU G3250 @ 3.20GHz
